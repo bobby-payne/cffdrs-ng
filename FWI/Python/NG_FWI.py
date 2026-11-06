@@ -8,7 +8,7 @@ from math import exp, log, pow, sqrt
 import pandas as pd
 
 # Import from other CFFDRS code files
-import util
+from . import util
 
 logger = logging.getLogger("cffdrs")
 logger.setLevel(logging.WARNING)

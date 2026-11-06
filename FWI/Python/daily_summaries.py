@@ -13,7 +13,7 @@ import argparse
 import datetime
 import pandas as pd
 import NG_FWI
-import util
+from . import util
 
 logger = logging.getLogger("cffdrs")
 logger.setLevel(logging.WARNING)

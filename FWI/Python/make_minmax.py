@@ -14,7 +14,7 @@
 import argparse
 from math import exp
 import pandas as pd
-import util
+from . import util
 
 
 ### Functions #################################################################

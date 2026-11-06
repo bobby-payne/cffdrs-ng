@@ -5,7 +5,7 @@ from warnings import warn
 
 import pandas as pd
 
-import util
+from . import util
 
 C_TEMP = {"c_alpha": 0.0, "c_beta": 2.75, "c_gamma": -1.9}
 C_RH = {"c_alpha": 0.25, "c_beta": 2.75, "c_gamma": -2.0}
