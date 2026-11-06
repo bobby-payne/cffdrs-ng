@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cffdrs"
+version = "0.1.0"
+description = "Python implementation of the Canadian Forest Fire Weather Index System"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["FWI.Python*"]
+namespaces = true
